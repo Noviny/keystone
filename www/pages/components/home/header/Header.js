@@ -22,7 +22,7 @@ export default class Header extends Component {
 				<Container>
 					<div className={compose(styles.intro)}>
 						<img src={logo} style={{ width: '93px' }}/>
-						<h1 className={compose(styles.intro__title)}>Node.js CMS & web application platform</h1>
+						<h1 className={compose(styles.intro__title)}>Canonical Change</h1>
 						<p className={compose(styles.intro__lead)}>Keystone is an open source framework for developing database-driven websites, applications and APIs in Node.js. Built on Express and MongoDB.</p>
 						<div className={compose(styles.home_header_buttons)}>
 							<Link to="/getting-started" className={compose(styles.button_home, styles.button_home_primary)}>Get Started</Link> <a href="https://demo.keystonejs.com" className={compose(styles.button_home, styles.button_home_inverse)}>Try the Demo</a>
