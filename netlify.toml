@@ -2,4 +2,4 @@
 [build]
   base = "www"
   publish = "public"
-  command = "gatsby develop"
+  command = "gatsby build"
